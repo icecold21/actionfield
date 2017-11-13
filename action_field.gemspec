@@ -10,17 +10,17 @@ Gem::Specification.new do |s|
   s.authors     = ["Jonathan Wylliem"]
   s.email       = ["jonathan.wylliem@jurnal.id"]
   s.homepage    = "N/A"
-  s.summary     = "Brave soldier marching into action field."
+  s.summary     = "Brave soldiers marching into action field."
   s.description = "Action Field"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.4"
+  s.add_dependency "rails", "~> 4.2.*"
 
   s.add_development_dependency "sqlite3"
-  # spec.add_development_dependency "bundler", "~> 1.8"
-  # spec.add_development_dependency "rake", "~> 10.0"
-  # spec.add_development_dependency "rspec", "~> 3.2"
+  s.add_development_dependency "bundler", "~> 1.8"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "rake", "~> 10.0"
 end
