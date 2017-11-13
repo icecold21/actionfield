@@ -13,3 +13,4 @@ source 'https://rubygems.org'
 gem 'byebug', group: [:development, :test]
 
 gem 'rails', '>= 4.2.0'
+gem 'rspec-rails'
