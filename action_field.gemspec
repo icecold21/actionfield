@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ActionField::VERSION
   s.authors     = ["Jonathan Wylliem"]
   s.email       = ["jonathan.wylliem@jurnal.id"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActionField."
-  s.description = "TODO: Description of ActionField."
+  s.homepage    = "N/A"
+  s.summary     = "Brave soldier marching into action field."
+  s.description = "Action Field"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,4 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.4"
 
   s.add_development_dependency "sqlite3"
+  # spec.add_development_dependency "bundler", "~> 1.8"
+  # spec.add_development_dependency "rake", "~> 10.0"
+  # spec.add_development_dependency "rspec", "~> 3.2"
 end

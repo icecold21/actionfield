@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     arel (8.0.0)
     builder (3.2.3)
+    byebug (9.1.0)
     concurrent-ruby (1.0.5)
     crass (1.0.2)
     erubi (1.7.0)
@@ -105,6 +106,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   rails (>= 4.2.0)
 
 BUNDLED WITH
