@@ -1,0 +1,2 @@
+class ScoobyDoo < ApplicationRecord
+end
