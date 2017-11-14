@@ -6,7 +6,7 @@ module ActionField
     end
 
     module ClassMethods
-      def acts_as_action_field(options = {})
+      def action_field(options = {})
         on = Array(options[:on])
         before_create :action_field_execute if on.empty? || on.include?(:create)
         before_update :action_field_execute if on.empty? || on.include?(:update)
