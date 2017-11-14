@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ActionField::VERSION
   s.authors     = ["Jonathan Wylliem"]
   s.email       = ["jonathan.wylliem@jurnal.id"]
-  s.homepage    = "N/A"
+  s.homepage    = "github.com/icecold21/actionfield"
   s.summary     = "Brave soldiers marching into action field."
-  s.description = "Action Field"
+  s.description = "Call action on ActiveRecord Fields"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
