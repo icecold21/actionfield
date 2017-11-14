@@ -5,7 +5,7 @@ require "action_field/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "action_field"
+  s.name        = "actionfield"
   s.version     = ActionField::VERSION
   s.authors     = ["Jonathan Wylliem"]
   s.email       = ["jonathan.wylliem@jurnal.id"]
