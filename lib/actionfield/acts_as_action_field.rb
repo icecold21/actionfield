@@ -19,7 +19,7 @@ module ActionField
         self.action_fields = Hash.new.tap do |h|
           options.each do |action, fields|
             fields.each do |field|
-              raise Exceptions::FieldNotFound, "Field :#{field} not found" if !field.in?(active_record_fields)
+              raise Exceptions::FieldNotFound, "Field :#{field} not found" if active_record_fields.exclude?(field)
               h[field] ||= []
               h[field] << action
             end
