@@ -1,4 +1,4 @@
-= ActionField
+# ActionField
 
 Call actions on ActiveRecord fields before update or create.
 
@@ -17,4 +17,4 @@ The above code will call strip method on first_name, and last_name to field befo
 The above code will call strip method on first_name, and last_name to field before create.
 
 ## License
-The code is on MIT license, feel free to use it or fork it.
+The code is on MIT license, feel free to use it or fork it. Or even send me a PR.
